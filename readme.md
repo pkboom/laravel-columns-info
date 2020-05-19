@@ -1,9 +1,8 @@
-# Very short description of the package
+# Show Table Columns Info
 
 [![Latest Stable Version](https://poser.pugx.org/pkboom/laravel-calm/v/stable)](https://packagist.org/packages/pkboom/laravel-calm)
 [![Build Status](https://travis-ci.com/pkboom/laravel-calm.svg?branch=master)](https://travis-ci.com/pkboom/laravel-calm)
 
-This is where your description should go. Try and limit it to a paragraph or two.
 <img src="/images/demo.png" width="800"  title="demo">
 
 ## Installation
@@ -16,17 +15,10 @@ composer require pkboom/laravel-columns-info
 
 ## Usage
 
-```php
-$skeleton = new pkboom\ColumnsInfo();
-echo $skeleton->echoPhrase('Hello, pkboom!');
-```
-
-## Requirements
-
-### Testing
+You can see columns info with
 
 ```bash
-composer test
+php artisan db-columns:show `table-name`
 ```
 
 ## License
