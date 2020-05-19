@@ -3,7 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/pkboom/laravel-calm/v/stable)](https://packagist.org/packages/pkboom/laravel-calm)
 [![Build Status](https://travis-ci.com/pkboom/laravel-calm.svg?branch=master)](https://travis-ci.com/pkboom/laravel-calm)
 
-<img src="/images/demo.png" width="800"  title="demo">
+<img src="/images/demo.png" width="600"  title="demo">
 
 ## Installation
 
