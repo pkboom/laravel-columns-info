@@ -1,0 +1,47 @@
+{
+  "name": "pkboom/laravel-columns-info",
+  "description": "",
+  "keywords": [
+    "pkboom",
+    "laravel-columns-info"
+  ],
+  "homepage": "https://github.com/pkboom/laravel-columns-info",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Keunbae Park",
+      "email": "ppotpo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "doctrine/dbal": "^2.10",
+    "orchestra/testbench": "^5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pkboom\\ColumnsInfo\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pkboom\\ColumnsInfo\\ColumnsInfoServiceProvider"
+      ]
+    }
+  }
+}
