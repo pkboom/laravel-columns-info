@@ -1,6 +1,7 @@
 # Show Table Columns Info
 
-[![Latest Stable Version](https://poser.pugx.org/pkboom/laravel-columns-info/v/stable)](https://packagist.org/packages/pkboom/laravel-columns-info)
+[![Latest Stable Version](https://poser.pugx.org/pkboom/laravel-columns-info/v)](//packagist.org/packages/pkboom/laravel-columns-info)
+[![Total Downloads](https://poser.pugx.org/pkboom/laravel-columns-info/downloads)](//packagist.org/packages/pkboom/laravel-columns-info)
 [![Build Status](https://travis-ci.com/pkboom/laravel-columns-info.svg?branch=master)](https://travis-ci.com/pkboom/laravel-columns-info)
 
 <img src="/images/demo.png" width="600"  title="demo">
